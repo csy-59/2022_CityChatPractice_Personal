@@ -132,7 +132,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedLobby()
     {
-        informationText.text = "로비 접속 완료!";
+        setActiveStartButton("로비 접속 완료!");
         roomPanel.SetActive(true);
     }
 
